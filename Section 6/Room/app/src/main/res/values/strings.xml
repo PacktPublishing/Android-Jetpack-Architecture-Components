@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NoteApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="note">Add Note</string>
+    <string name="save">Save</string>
+    <string name="saved">Note Saved</string>
+    <string name="not_saved">Couldn\'t Save</string>
+    <string name="no_note">No notes</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="updated">Note Updated</string>
+    <string name="my_note">Note</string>
+</resources>
