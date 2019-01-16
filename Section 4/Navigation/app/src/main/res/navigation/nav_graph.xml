@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/nav_graph"
+	app:startDestination="@id/home_destination">
+
+	<fragment
+		android:id="@+id/home_destination"
+		android:name="com.navigation.packt.shoppackt.HomeFragment"
+		android:label="Home"
+		tools:layout="@layout/fragment_home" />
+	<fragment
+		android:id="@+id/shop_destination"
+		android:name="com.navigation.packt.shoppackt.ShopFragment"
+		android:label="Shop"
+		tools:layout="@layout/fragment_shop">
+		<action
+			android:id="@+id/next_action"
+			app:destination="@+id/about_destination" />
+	</fragment>
+	<fragment
+		android:id="@+id/about_destination"
+		android:name="com.navigation.packt.shoppackt.AboutFragment"
+		android:label="About"
+		tools:layout="@layout/fragment_about">
+		<argument
+			android:name="productCount"
+			android:defaultValue="0"
+			app:argType="integer" />
+	</fragment>
+	<fragment
+		android:id="@+id/cart_destination"
+		android:name="com.navigation.packt.shoppackt.CartFragment"
+		android:label="Cart"
+		tools:layout="@layout/fragment_cart" />
+</navigation>

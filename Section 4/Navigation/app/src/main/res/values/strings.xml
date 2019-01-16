@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShopPackt</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="detail">We empower small and medium-sized businesses to reach millions of customers with a number of programmes that help boost their revenue, reach and productivity.</string>
+    <string name="shop">Shop</string>
+    <string name="about_us">About Us</string>
+</resources>

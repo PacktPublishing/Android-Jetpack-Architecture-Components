@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Git Repository List</string>
+    <string name="loading">Loading</string>
+    <string name="language">Language: %s</string>
+    <string name="sample_desc">A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.</string>
+    <string name="star">star</string>
+    <string name="count">30</string>
+    <string name="forks">forks</string>
+    <string name="sample_name">Repo Name</string>
+</resources>
